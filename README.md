@@ -1,4 +1,11 @@
-# Beenthere
+# been-there
+
+_created by Austin Poor_
+
+An app for managing places you've been and places you want to go.
+
+
+---
 
 To start your Phoenix server:
 
