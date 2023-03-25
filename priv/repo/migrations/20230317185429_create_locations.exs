@@ -8,7 +8,7 @@ defmodule Beenthere.Repo.Migrations.CreateLocations do
       add :want_to_visit, :boolean, default: false, null: false
       add :tags, {:array, :string}
       add :description, :string
-      add :owner_id, references(:users, on_delete: :nothing)
+      add :owner_id, references(:users, on_delete: :delete_all)
 
       timestamps()
     end
